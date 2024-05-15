@@ -2,6 +2,8 @@ import requests
 
 # Define Jenkins server details
 host = "http://140.211.11.144:8080"
+username = "robin_jain"
+password = "Robin@0206"
 
 # Define job name and build numbers
 job_name = "Maven_test"
