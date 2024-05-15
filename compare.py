@@ -7,8 +7,8 @@ build_url2 = "http://140.211.11.144:8080/job/Maven_test/2/"
 # No need to check if builds exist
 
 # Retrieve console output directly using the build URLs
-console_output1 = server.get_build_console_output_url(build_url1).splitlines()
-console_output2 = server.get_build_console_output_url(build_url2).splitlines()
+console_output1 = get_build_console_output_url(build_url1).splitlines()
+console_output2 = get_build_console_output_url(build_url2).splitlines()
 
 # Rest of the code remains the same
 
