@@ -7,6 +7,6 @@ public class MyTest {
     @Test
     public void testAddition() {
         int result = Calculator.add(2, 2);
-        assertEquals(5, result);
+        assertEquals(4, result);
     }
 }
